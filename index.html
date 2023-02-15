@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/all.min.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="index.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <div class="content">
+        <div class="container pt-5">
+            <label for="pn">Product Name</label>
+            <input type="text" id="pn" class="form-control mb-3" />
+
+            <label for="pp">Product price</label>
+            <input type="text" id="pp" class="form-control mb-3" />
+
+            <label for="pc">Product Category</label>
+            <input type="text" id="pc" class="form-control mb-3" />
+
+            <label for="pd">Product desc</label>
+            <input type="text" id="pd" class="form-control mb-3" />
+
+            <button onclick="AddElements() " class="btn btn-outline-info mb-3" id="btnId">ADD</button>
+
+            
+            <input onkeyup="search()" type="text" id="search" class="form-control mb-3" placeholder="search"/>
+
+            <table class="table mt-3 table-striped">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>price</th>
+                        <th>category</th>
+                        <th>desc</th>
+                        <th>delete</th>
+                        <th>update</th>
+                    </tr>
+                </thead>
+                <tbody id="demo">
+                   
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="./js/bootstrap.bundle.min.js" rel="stylesheet"></script>
+    <script src="main.js" rel="stylesheet"></script>
+</body>
+
+</html>
